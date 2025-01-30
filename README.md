@@ -1,2 +1,2 @@
 # dwarfenpick
-Minetest/Lianti mod. A pickaxe with special abilities.
+Minetest/Luanti mod. A pickaxe with special abilities.
