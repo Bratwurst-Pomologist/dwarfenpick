@@ -20,3 +20,12 @@ minetest.register_tool(":dwarfen:pick", {
                 damage_groups = {fleshy = 1000}
         }
 })
+
+minetest.register_craft({
+    output = "more_pickaxes:water_pickaxe",
+    recipe = {
+            {'bucket:bucket_water','bucket:bucket_water','bucket:water'},
+            {'','default:stick',''},
+            {'','default:stick',''},
+    }
+})
