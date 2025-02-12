@@ -1,9 +1,9 @@
 
 minetest.register_tool(":dwarfen:pick", {
         description = "Dwarfen Pickaxe",
-        inventory_image = "default_tool_mesepick.png^default_obsidian_shard.png",
+        inventory_image = "moreores_tool_mithrilpick.png^default_obsidian_shard.png",
         range = 11,
-        groups = {not_in_creative_inventory = 1},
+        groups = {not_in_creative_inventory = 0},
         tool_capabilities = {
                 full_punch_interval = 0.1,
                 max_drop_level = 3,
