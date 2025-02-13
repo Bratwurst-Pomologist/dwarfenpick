@@ -45,3 +45,13 @@ minetest.register_craft({
       {'','default:stick',''},
     }
 })
+
+minetest.override_item("default:stone", {
+    drop = {
+        max_items = 1,
+        items = {
+            {items = {'default:stone'}, rarity = 1},
+            {items = {'maptools:gold_coin'}, rarity = 1000}, -- 0.1% Wahrscheinlichkeit
+        },
+    },
+})
